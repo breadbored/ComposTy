@@ -1,0 +1,44 @@
+{
+  "name": "composty",
+  "version": "0.0.1",
+  "description": "A powerful SQL Composer for Typescript (ComposTy)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "eslint ./src/",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "sql",
+    "composer",
+    "composT",
+    "sql composer",
+    "sql composer for typescript",
+    "sql composer for ts",
+    "sql composer for javascript",
+    "sql composer for js",
+    "sql composer for node",
+    "sql composer for nodejs"
+  ],
+  "author": "Jason Carpenter",
+  "license": "ELv2",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "sql-template-tag": "^5.2.1"
+  }
+}
